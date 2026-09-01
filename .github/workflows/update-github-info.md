@@ -17,6 +17,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
@@ -29,17 +30,19 @@ Use these sources:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
 Use the web-fetch tool to read:
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Review the existing page at `site/content/github-info.md` and update it with concise, practical information that helps developers learn GitHub faster.
 
 Follow these instructions:
 - Keep summaries short and useful.
 - Prefer updates that help developers learn GitHub faster.
-- Mention the source whenever a change comes from the GitHub Blog or the GitHub Changelog.
+- Mention the source whenever a change comes from the GitHub Blog, the GitHub Changelog, or Awesome Copilot workflows.
 - Keep the content aligned with Mona's editorial angle: practical GitHub guidance backed by official references.
 - Update `site/content/github-info.md` in place.
 - Open a pull request for Mona to review before publishing changes.
